@@ -11,6 +11,8 @@
     <modules>
         <module>ssmDao</module>
         <module>ssmWeb</module>
+        <module>ssmModel</module>
+        <module>ssmService</module>
     </modules>
 
     <!--添加依赖-->
