@@ -1,5 +1,7 @@
 package cn.share2u.ssmTest.dao;
 
+import org.apache.ibatis.annotations.Param;
+
 public interface BaseDao<T> {
-    T select(Integer id);
+    T select(T t);
 }

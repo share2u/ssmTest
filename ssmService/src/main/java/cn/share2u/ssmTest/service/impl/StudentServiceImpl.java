@@ -11,6 +11,8 @@ public class StudentServiceImpl implements StudentService {
     @Autowired
     StudentDao studentDao;
     public Student select(Integer id) {
-        return studentDao.select(id);
+        Student student = new Student();
+        student.setId(id);
+        return studentDao.select(student);
     }
 }

@@ -1,5 +1,3 @@
-package cn.share2u.ssmTest.web;
-
 import cn.share2u.ssmTest.model.Student;
 import cn.share2u.ssmTest.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
